@@ -1,0 +1,78 @@
+
+
+.app {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+text-align: center;
+word-spacing: normal;
+}
+
+
+.genre-filter {
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* Background color applied to the container */
+}
+
+/* Override the background color for buttons */
+.genre-filter button {
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 18px;;
+    background-color: #d4d3d3; /* Same as the container background color */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.genre-filter button:hover {
+    background-color: #c2dd2b;
+}
+
+.movie-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.movie-list th,
+.movie-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.movie-list th {
+    background-color: #f2f2f2;
+}
+
+.movie-list tbody tr:hover {
+    background-color: #e8e8e8;
+}
+
+.movie-list th,
+.movie-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    position: relative; 
+    border-right: 1px solid #ddd;
+}
+
+.genre-filter h4 {
+    text-align: left; /* Center the heading */
+    margin-bottom: 2px; /* Add space below the heading */
+    background-color: #f0f0f0; /* Background color */
+    padding: 11px; /* Add padding */
+    border-radius: none;
+    font-size: 22px; /* Larger font size */
+
+}
+
+
+
+
